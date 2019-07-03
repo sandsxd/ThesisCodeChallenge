@@ -1,5 +1,5 @@
 # ThesisCodeChallenge
-Webpage for Thesis's Code Challenge
+Web Page for Thesis's Code Challenge
 
 ## How to View:
 1. Clone/download the repository

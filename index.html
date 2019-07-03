@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="nav">
+      <table style="width:100%;">
+        <tr>
+          <td class="leftNav" style="text-align:left;">
+              <span class="navLogo"><a href="#">Stamp</a></span>
+          </td>
+          <td class="centerNav">
+              <span class="navItem"><a href="#">About</a></span>
+              <span class="navItem"><a href="#">Integrations</a></span>
+              <span class="navItem"><a href="#">Pricing</a></span>
+              <span class="navItem"><a href="#">Contacts</a></span>
+          </td>
+          <td class="rightNav">
+            <div id="sidebar" class="sidebar">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">☰</a>
+              <a href="#">More Stuff</a>
+              <a href="#">Even More Stuff</a>
+            </div>
+
+            <div id="main">
+              <button class="openbtn" onclick="openNav()">☰</button>  
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="content">
+      <table>
+        <tr>
+          <td>
+          </td>
+          <td>
+            <div class="signUp"> SIGN UP FOR FREE </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="slogan" style="width:450px; text-align:left;">
+              <div class="descMacro">Simple Way to Organize Your Inspirations</div>
+              <div class="descMicro">I think what motivates people is not great hate, but great love for other people.</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="registry-page">
+              <div class="form">
+                <form class="register-form">
+                  <input class="firstInput" type="text" placeholder="Name"/>
+                  <input type="text" placeholder="E-mail"/>
+                  <div class="container">  
+                    <input id="pass" type="password" placeholder="Password"/>
+                    <img class="layered" id="eye" src="images/crossEye.png" width="20px" height="15px" onClick="toggleVisibility()">
+                  </div>
+                  <button>Sign Up ></button>
+                </form>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      <table style="width:100%">
+        <tr>
+          <td style="text-align: left; padding-left:5%;">
+            © 2016 Stamp. All Rights Reserved
+          </td>
+          <td style="text-align: right; padding-right:5%;">
+            <span class="navItem"><a href="#">CONTACT</a></span>
+            <span class="navItem"><a href="#">HELP</a></span>
+            <span class="navItem"><a href="#">TERMS OF USE</a></span>
+            <span class="navItem"><a href="#">PRIVACY POLICY</a></span>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

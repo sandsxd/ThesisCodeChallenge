@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto.tff') format('truetype');
+}
+
+.navItem a, .navLogo a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 0 0 10px 10px;
+}
+
+.navItem {
+  font-size: 1.5em;
+}
+
+.navLogo {
+  font-size: 2.5em;
+}
+
+.navLogo a {
+  text-align: left;
+}
+
+table {
+  table-layout: fixed;
+  margin: auto;
+}
+
+td {
+  width: 50%;
+}
+
+td.leftNav {
+  width: 33%;
+  text-align: left;
+  padding-left: 5%;
+}
+
+td.centerNav {
+  width: 50%;
+}
+
+td.rightNav {
+  width: 17%;
+  text-align: right;
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(87, 230, 66);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 80px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  font-size: 20px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  background: transparent;
+}
+
+.openbtn:hover {
+  background-color: rgb(87, 230, 66);
+}
+
+#main {
+  transition: margin-right .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+.slogan {
+  color: #ffffff;
+  text-align: justify;
+  padding: 0 10% 0 10%;
+}
+
+.descMacro {
+  font-size: 4em;
+}
+
+.descMicro {
+  font-size: 1.5em;
+  color: #e9e9e9;
+}
+
+.registry-page {
+  width: 400px;
+  margin: auto;
+}
+
+.signUp {
+  text-align:center;
+  color:#ffffff;
+  padding: 20px;
+  font-size: 1.2em;
+}
+
+.form input {
+  background: black;
+  color: white;
+  opacity: 0.5;
+  width: 100%;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  margin: 0 0;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.firstInput {
+  border-radius: 10px 10px 0 0;
+}
+
+.form button {
+  /*font-family: "; Address Later*/
+  background: rgb(131, 196, 214);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  border-radius: 0 0 10px 10px;
+}
+
+.container {
+  position: relative;
+}
+
+.layered {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   padding-bottom: 3%;
+}
+
+.footer .navItem {
+  font-size: 1em;
+}
+
+.content {
+  padding-top: 15%;
+  padding-bottom: 15%;
+}
+
+body
+{
+  background: url('images/bg.png');
+  background-repeat: no-repeat;
+  background-size: width height;
+  font-family: 'Roboto', Arial, sans-serif;
+}
